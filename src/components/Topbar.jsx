@@ -4,7 +4,7 @@ import ProfileCard from "./ProfileCard";
 import useUserStore from "../store/useUserStore";
 
 const Topbar = () => {
-  const [isVerified, setIsVerified] = useState(true); // User login status
+  const [isVerified, setIsVerified] = useState(false); // User login status
   const [showProfile, setShowProfile] = useState(false); // Controls ProfileCard visibility
   const profileRef = useRef(null);
 
